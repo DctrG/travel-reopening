@@ -1497,7 +1497,7 @@ countries:
     sources:
       domestic:
         - '[Domestic travel is allowed](https://www.covid.is/english) with social distancing measures.'
-        inbound:
+      inbound:
         - '[Iceland’s borders are currently closed to tourists from countries outside of the EEA and EFTA. Travellers from outside these areas will not be allowed to enter Iceland unless they can demonstrate that they are coming on “urgent business.” Borders are expected to be opened for non-Schengen residents from 1 July, 2020.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
         - '[Iceland opening on 15 June, 2020 to Schengen residents.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
       outbound:
