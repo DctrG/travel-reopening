@@ -382,6 +382,8 @@ countries:
       outbound: yes
   BH:
     sources:
+      domestic:
+        - '[Schools and universities are closed, while [gatherings of more than five people are banned](https://www.garda.com/crisis24/news-alerts/363126/bahrain-authorities-extend-all-visas-by-three-months-until-october-21-update-15)'
       inbound:
         - '[Inbound air travel is restricted](https://www.evisa.gov.bh/VISA/visaInput?nav=A0S&A0S=a) and Bahrain has implemented several measures at the airport to reduce the spread of COVID-19.'
         - '[Neither commuters nor tourists will be permitted](https://bh.usembassy.gov/covid-19-information/) to use the causeway to travel between Bahrain and Saudi Arabia until further notice.'
@@ -389,6 +391,7 @@ countries:
         - 'All visas upon arrival have been suspended, anyone attempting to enter Bahrain must have a Bahrain residence permit or [secure a visa in advance](https://bh.usembassy.gov/covid-19-information/).'
         - '[All arriving passengers will be quarantined for 14 days](https://bh.usembassy.gov/covid-19-information/), regardless of the outcome of the COVID-19 test.'
     travel:
+      domestic: 'no'
       inbound: 'partial'
   BI:
     sources:
@@ -463,6 +466,7 @@ countries:
       domestic:
         - 'Inter island travel allowed with [travel application](https://www.osac.gov/Content/Report/1e5dbe0f-306f-429e-b385-18d348bd34ff).'
         - 'All public and private beaches on the island of New Providence, Paradise Island, Rose Island, Athol Island, and surrounding cays have closed from July 20, 2020. Indoor dining is also not permitted, bars will be closed, and public gatherings, including church services and sports activities, [will be prohibited](https://www.garda.com/crisis24/news-alerts/361576/bahamas-authorities-announce-new-restrictions-from-july-20-update-8).'
+        - 'Starting July 27, 2020, a curfew from [7 pm to 5 am will be in effect](https://www.garda.com/crisis24/news-alerts/363226/bahamas-government-to-implement-nationwide-weekend-lockdown-july-24-update-9).'
       inbound:
         - 'On July 1, 2020, the Bahamian government [reopened the country''s borders](https://www.garda.com/crisis24/news-alerts/355966/bahamas-authorities-reopen-borders-to-international-tourism-on-july-1-update-6) to flights from Canada, the United Kingdom, and the European Union, but only after presenting proof of a negative COVID-19 test taken within 10 days of their arrival.'
         - 'Those arriving before Tuesday, July 7, must [provide negative COVID-19 test results](https://www.garda.com/crisis24/news-alerts/355966/bahamas-authorities-reopen-borders-to-international-tourism-on-july-1-update-6) that are no more than ten days old. After July 7, arrivals must provide a test result that is no more than seven days old.'
@@ -1838,7 +1842,7 @@ countries:
         - 'Those arriving from a country in the "green list" will [no longer be subject to the 14-day self-quarantine requirements](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10). However, quarantine requirements will remain in place for all countries which are not included in the list.'
       outbound:
         - '[Do not travel – Note: Afghanistan, Burundi, Central African Republic, Democratic Republic of Congo, Iraq, Libya, Mali, Somalia, South Sudan, Syria, and Yemen have pre-existing ‘Do Not Travel’ designations which remain in place.](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
-        - '[Avoid non-essential travel. All other countries including Great Britain but excluding Northern Ireland](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
+        - 'The Libyan Civil Aviation Authority (CAA) has announced that [flights will resume for departing passengers only](https://www.garda.com/crisis24/news-alerts/363371/libya-authorities-announce-reopening-of-misrata-airport-for-departing-passengers-from-july-26) from July 26, 2020.'
       visa_quarantine:
         - 'Those arriving from higher risk locations will still be required to fill out a [Passenger Locator Form on arrival and self-isolate for two weeks](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10).'
         - 'Those arriving from a country in the "green list" will [no longer be subject to the 14-day self-quarantine requirements](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10). However, quarantine requirements will remain in place for all countries which are not included in the list.'
@@ -2278,8 +2282,8 @@ countries:
   KW:
     sources:
       domestic:
-        - 'The current lockdown in Mahboula, Jleeb Al-Shuyoukh and other states is [scheduled to be lifted on July 9, 2020](https://www.garda.com/crisis24/news-alerts/356516/kuwait-lockdown-restrictions-to-be-lifted-in-mahboula-and-jleeb-al-shuyoukh-from-july-9-update-21).'
-        - 'Additionally, a partial curfew [remains in effect between 19:00 and 05:00 (local time) daily](https://www.garda.com/crisis24/news-alerts/356516/kuwait-lockdown-restrictions-to-be-lifted-in-mahboula-and-jleeb-al-shuyoukh-from-july-9-update-21).'
+        - 'Hotels and mosques will reopen, and taxis are [permitted to operate](https://www.garda.com/crisis24/news-alerts/363061/kuwait-authorities-announce-third-phase-of-covid-19-reopening-to-commence-on-july-28-update-23).'
+        - 'The partial curfew has been shortened, and is [between 7 pm and 3 am (local time) daily](https://www.garda.com/crisis24/news-alerts/363061/kuwait-authorities-announce-third-phase-of-covid-19-reopening-to-commence-on-july-28-update-23).'
       inbound:
         - '[Kuwait has closed its airport and land border with Iraq](https://kw.usembassy.gov/covid-19-information/).'
       outbound:
@@ -2884,13 +2888,13 @@ countries:
         - 'The nationwide curfew has been [lifted](https://www.garda.com/crisis24/news-alerts/346821/mali-first-un-peacekeeper-covid-19-deaths-confirmed-update-5).'
         - 'Gatherings of over 50 people are [prohibited](https://www.garda.com/crisis24/news-alerts/346821/mali-first-un-peacekeeper-covid-19-deaths-confirmed-update-5).'
       inbound:
-        - 'On March 20, 2020, the Government of Mali prohibited flights coming from countries with confirmed cases of COVID-19. Additionally, the Malian government has [closed all land borders to passenger vehicle traffic while allowing cargo and freight](https://ml.usembassy.gov/covid-19-information/).'
+        - 'Authorities stated that [air borders will reopen on July 25, 2020, and land borders on July 31, 2020](https://www.garda.com/crisis24/news-alerts/363201/mali-authorities-announce-reopening-of-air-and-land-borders-july-24-update-6).'
       outbound:
-        - 'Mali’s borders and international airports remain [closed until further notice](https://www.gov.uk/foreign-travel-advice/mali/coronavirus).'
+        - 'Authorities stated that [air borders will reopen on July 25, 2020, and land borders on July 31, 2020](https://www.garda.com/crisis24/news-alerts/363201/mali-authorities-announce-reopening-of-air-and-land-borders-july-24-update-6).'
     travel:
       domestic: partial
-      inbound: no
-      outbound: no
+      inbound: partial
+      outbound: partial
   MM:
     sources:
       domestic:
@@ -3268,6 +3272,7 @@ countries:
     sources:
       domestic:
         - 'Malaysia has relaxed restrictions and has [allowed interstate travel.](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)'
+        - 'As of August 1, 2020, the use of face masks will be [required while in public areas](https://www.garda.com/crisis24/news-alerts/362936/malaysia-face-masks-to-be-compulsory-in-public-places-from-august-1-update-24).'
       inbound:
         - '[International borders are to remain closed indefinitely](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22), with some exceptions, and Malaysian immigration services have resumed operations by appointment only.'
       outbound:
@@ -4898,14 +4903,15 @@ countries:
       domestic:
         - '[Domestic flights have resumed on several routes amid the easing of lockdown measures nationwide.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)'
         - '[As of 23 April, 2020, tourism attractions in the country are allowed to reopen but must ensure safety measures are in place for all visitors.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)'
+        - 'The wearing of masks is [no longer mandatory in public](https://www.garda.com/crisis24/news-alerts/363266/vietnam-authorities-announce-first-locally-transmitted-covid-19-case-in-three-months-on-july-25-update-28), although they may be required at hospitals and on some public transport.'
       inbound:
         - '[All visa issuances are suspended.](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam)'
-        - '[From 22 March, 2020 until further notice, Vietnam has temporarily suspended entry for all foreign nationals. Only Vietnamese nationals, foreigners on diplomatic or official business, and highly skilled workers allowed to enter the country at this time.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)'
+        - 'From 22 March, 2020 until further notice, Vietnam has [temporarily suspended entry for all foreign nationals.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)'
       outbound:
         - '[Limited international flights out. Check Vietnam Airlines schedule here.](https://www.vietnamairlines.com/sg/en/travel-alerts/2020/~/media/2C52390659B14A27BDE026D2B430AB6C.ashx)'
       visa_quarantine:
-        - '[Anyone entering Vietnam must undergo medical checks and 14-day quarantine upon arrival.](https://vietnam.travel/things-to-do/information-travellers-novel-coronavirus-vietnam)'
-        - '[All inbound travellers coming to Vietnam will be required to submit a health declaration.](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam)'
+        - 'Anyone entering Vietnam must undergo medical checks and [14-day quarantine upon arrival.](https://vietnam.travel/things-to-do/information-travellers-novel-coronavirus-vietnam)'
+        - 'All inbound travellers coming to Vietnam will be required to [submit a health declaration.](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam)'
     travel:
       domestic: 'yes'
       inbound: 'no'
