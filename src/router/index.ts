@@ -33,6 +33,11 @@ const routes: Array<RouteConfig> = [
     name: 'Country',
     component: () => import('../views/Country.vue'),
   },
+  {
+    path: '/oembed-map',
+    name: 'OembedMap',
+    component: () => import(/* webpackChunkName: 'oembed-map' */ '../views/OembedMap.vue'),
+  },
 ];
 
 const router = new VueRouter({
