@@ -1,11 +1,7 @@
 <template>
   <div id="app" class="flex flex-col h-screen font-body text-gray-800">
-    <div class="mb-16 sm:mb-18 lg:mb-24">
-      <SiteNav/>
-    </div>
-    <div class="flex-grow">
-      <router-view/>
-    </div>
+    <div class="mb-16 sm:mb-18 lg:mb-24"><SiteNav/></div>
+    <router-view class="flex-grow" />
     <SiteFooter/>
   </div>
 </template>
