@@ -6,6 +6,7 @@
 
 <script>
 import DefaultLayout from '@/views/layouts/DefaultLayout.vue';
+import OembedLayout from '@/views/layouts/OembedLayout.vue';
 
 export default {
   name: 'App',
