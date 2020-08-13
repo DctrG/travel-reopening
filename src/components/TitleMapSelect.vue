@@ -5,7 +5,12 @@
         <div class="mb-4 sm:mb-6 lg:mb-8">
           <h1>The Ultimate Guide to COVID-19 Travel Restrictions</h1>
           <div class="flex flex-col sm:justify-between sm:flex-row mb-2 sm:mb-4">
-            <div class="sm:order-last mt-1 mb-2 sm:my-0"><ShareNetwork /></div>
+            <div class="sm:order-last mt-1 mb-2 sm:my-0">
+              <ShareNetwork />
+              <button @click="embed">Embed</button>
+              <OembedMapComponent v-show="false" ref="oembedMap" />
+              <textarea ref="codeContainer"></textarea>
+            </div>
             <p class="w-full md:w-9/12 sm:order-first">
               A free and open-source project by
               <a class="inline-flex no-underline" href="https://www.tourhero.com/" target="_blank">TourHero</a>.
@@ -46,19 +51,29 @@
 
 <script>
 import CountrySelect from '@/components/CountrySelect.vue';
+import Legend from '@/components/Map/Legend.vue';
+import OembedMapComponent from '@/components/Map/OembedMapComponent.vue';
 import ShareNetwork from '@/components/ShareNetwork.vue';
 import TravelDirectionToggle from '@/components/TravelDirectionToggle.vue';
-import Legend from '@/components/Map/Legend.vue';
 import WorldMap from '@/components/Map/WorldMap.vue';
 
 export default {
   name: 'TitleMapSelect',
   components: {
     CountrySelect,
+    Legend,
+    OembedMapComponent,
     ShareNetwork,
     TravelDirectionToggle,
-    Legend,
     WorldMap,
+  },
+  methods: {
+    embed() {
+      const omebedMapHtml = this.$refs.oembedMap.$el.innerHTML;
+      const { codeContainer } = this.$refs;
+      codeContainer.value = omebedMapHtml;
+      document.execCommand('copy', codeContainer.select());
+    },
   },
 };
 </script>
