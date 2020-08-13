@@ -115,6 +115,9 @@ export default {
   computed: {
     ...mapGetters(['getCountryById', 'getCountryState', 'getCountryGlobalState']),
     ...mapState(['country', 'travelContext']),
+    oembedMap() {
+      return this.$route.name === 'OembedMap';
+    },
     mapTitle() {
       if (this.country) {
         return this.travelContext === TravelDirection.Inbound
@@ -202,9 +205,16 @@ export default {
         .attr('d', path)
         .on('click', (d) => {
           if (this.isMobile) { return; }
+
           const country = this.getCountryById(d.id);
+
           if (this.$route.params.country === country.slug) return;
-          this.$router.push({ name: 'Country', params: { country: country.slug } });
+
+          if (this.oembedMap) {
+            window.open(`${this.baseUrl}/${country.slug}.html`, '_blank');
+          } else {
+            this.$router.push({ name: 'Country', params: { country: country.slug } });
+          }
         })
         .call(renderTooltip(tooltipBody.bind(this)))
         .attr('transform', 'scale(1.55)');
