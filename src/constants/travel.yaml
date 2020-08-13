@@ -1,5 +1,5 @@
 ---
-checked_on: 2020-08-11
+checked_on: 2020-08-13
 countries:
   AD:
     sources:
@@ -543,6 +543,7 @@ countries:
       domestic:
         - '[Most tourism sites closed](https://www.tourism.gov.bt/announcements/tourism-bhutan-situation-report-on-covid-19-as-of-23rd-march-2020).'
         - 'Schools have resumed for most classes and all students are required to wear masks. While all parks and public spaces have reopened, huge gatherings of crowds including tournaments and spectators are prohibited. Wearing of face masks are a requirement at all gatherings and [safe distancing protocols are to be followed](https://www.drukasia.com/bhutan/update-on-covid-19-is-bhutan-safe/).'
+        - 'All schools, government institutions, offices, and commercial establishments will [remain closed until further notice and exams will be postponed](https://www.garda.com/crisis24/news-alerts/367836/bhutan-authorities-impose-nationwide-lockdown-due-to-covid-19-august-11-update-1).'
       inbound:
         - '[All inbound tourists will be denied entry into Bhutan, till further notice](https://www.mfa.gov.sg/countries-regions/b/bhutan/travel-page).'
       outbound:
@@ -830,6 +831,8 @@ countries:
       inbound:
         - '[Entry is allowed for certain countries](https://cy.usembassy.gov/covid-19-information/#:~:text=For%20Tourists%3A,14%20days%20prior%20to%20travel).'
         - 'Cyprian authorities announced on July 4, 2020, that the country will [no longer accept flights arriving from Lebanon from July 6, 2020](https://www.garda.com/crisis24/news-alerts/356776/cyprus-authorities-ban-flights-arriving-from-lebanon-from-july-6-update-12).'
+      outbound:
+        - 'Many airlines have resumed flights to and out of Cyprus. [Please check with your air carrier.](https://www.visitcyprus.com/files/COVID-19_Destination_Protocol-Cyprus_31-07-2020.pdf).'
       visa_quarantine:
         - '[The suspension of all visa services](https://www.garda.com/crisis24/news-alerts/356776/cyprus-authorities-ban-flights-arriving-from-lebanon-from-july-6-update-12) will also apply and remain in place indefinitely.'
     travel:
@@ -858,6 +861,7 @@ countries:
         - RO
       inbound_restricted:
         - LB
+      outbound: partial
   CZ:
     sources:
       domestic:
@@ -1134,6 +1138,7 @@ countries:
       domestic:
         - 'Hotels in Egypt have now resumed operation, and have been able to operate at 50% capacity since June 1, 2020. Casinos are also allowed to open if they [do not exceed 50% of their total capacity.](https://www.garda.com/crisis24/news-alerts/355906/egypt-national-carrier-announces-resumption-of-flights-from-july-1-update-30).'
         - 'The government has extended the hours that certain parts of the retail sector are [permitted to open from July 26, 2020](https://www.garda.com/crisis24/news-alerts/362471/egypt-authorities-extend-retail-operating-hours-from-july-26-update-32).'
+        - 'Egyptian authorities [reopened the Rafah border crossing with the Gaza Strip](https://www.garda.com/crisis24/news-alerts/368001/israelpalestinian-terr-egypt-reopens-rafah-crossing-with-gaza-on-august-11).'
       inbound:
         - 'EgyptAir officials have announced that [international commercial flights have resumed](https://www.garda.com/crisis24/news-alerts/355906/egypt-national-carrier-announces-resumption-of-flights-from-july-1-update-30).'
         - 'A limited number of services to Egypt are now [operating from a variety of international destinations](https://www.egyptonlinevisa.com/travel-restrictions/).'
@@ -1800,7 +1805,7 @@ countries:
       '2020-08-17': 'International commercial flight operations will [commence on August 17, 2020](https://www.garda.com/crisis24/news-alerts/366136/honduras-authorities-to-resume-international-flights-from-august-17-update-15).'
     sources:
       domestic:
-        - '[The curfew remains in place](https://www.garda.com/crisis24/news-alerts/365846/honduras-nationwide-curfew-extended-until-august-9-update-14) between the hours of 5 pm and 7 am (local time) until August 9, 2020.'
+        - '[The curfew remains in place](https://www.garda.com/crisis24/news-alerts/365846/honduras-nationwide-curfew-extended-until-august-9-update-14) between the hours of 5 pm and 7 am (local time) until August 23, 2020.'
         - 'Face masks are mandatory in [all public spaces](https://www.garda.com/crisis24/news-alerts/365846/honduras-nationwide-curfew-extended-until-august-9-update-14)'
         - 'Domestic flights will be permitted to [resume from August 10, 2020](https://www.garda.com/crisis24/news-alerts/366136/honduras-authorities-to-resume-international-flights-from-august-17-update-15)'
       inbound:
@@ -1914,7 +1919,7 @@ countries:
       outbound:
         - '[Avoid non-essential travel](https://govextra.gov.il/ministry-of-health/corona/corona-virus-en/faq-corona-en/)'
     travel:
-      domestic: 'no'
+      domestic: 'partial'
       inbound: 'no'
       outbound: partial
   IN:
@@ -3077,7 +3082,7 @@ countries:
     sources:
       domestic:
         - 'Inter-island ferry travel is [not permitted](https://www.garda.com/crisis24/news-alerts/366096/maldives-curfew-reimposed-in-male-and-nearby-islands-from-august-4-update-14).'
-        - 'The 11 pm to 5 am (local time) curfew affects Malé, Vilimalé, and Hulhumalé, will remain in place until [an unspecified time](https://www.garda.com/crisis24/news-alerts/366096/maldives-curfew-reimposed-in-male-and-nearby-islands-from-august-4-update-14).'
+        - 'The 10 pm to 5 am (local time) curfew affects Malé, Vilimalé, and Hulhumalé, will remain in place until [an unspecified time](https://www.garda.com/crisis24/news-alerts/366096/maldives-curfew-reimposed-in-male-and-nearby-islands-from-august-4-update-14).'
         - 'Tourists can only stay on the island they are based on, and are [restricted from going to other islands / traveling to inhabited islands.](https://covid19.health.gov.mv/new-normal-faq-for-visiting-the-maldives/).'
         - 'Public gatherings of more than five people are banned, while the use of face masks is [mandatory in all enclosed and public spaces.](https://www.garda.com/crisis24/news-alerts/366096/maldives-curfew-reimposed-in-male-and-nearby-islands-from-august-4-update-14).'
       inbound:
@@ -3352,6 +3357,7 @@ countries:
       domestic:
         - '[Travelers can travel around the country](https://covid19.govt.nz/alert-system/alert-level-2/#travel-and-transport), if they follow good personal health measures.'
         - 'The State of National Emergency [has now been lifted](https://www.garda.com/crisis24/news-alerts/364626/new-zealand-pre-departure-covid-19-testing-to-be-compulsory-for-certain-flights-from-august-1-update-19).'
+        - 'Some restrictions have been placed on Auckland, where public gatherings will be limited to 10 people and non-essential events prohibited](https://www.garda.com/crisis24/news-alerts/367891/new-zealand-lockdown-measure-reimposed-in-auckland-from-august-12-following-confirmation-of-new-covid-19-cases-update-20). In addition, ublic venues, restaurants, bars, and cafes are also expected to close.'
       inbound:
         - '[Borders are closed for all foreign travelers](https://www.garda.com/crisis24/news-alerts/357296/new-zealand-air-new-zealand-suspend-incoming-flight-bookings-july-7-update-18).'
       outbound:
@@ -4220,12 +4226,18 @@ countries:
       inbound: 'yes'
       outbound: 'yes'
   SR:
+    reopening:
+      '2020-08-14': 'Suriname''s borders are closed [until at least August 14, 2020](https://www.garda.com/crisis24/news-alerts/367866/suriname-authorities-extend-curfew-and-other-covid-19-measures-until-august-23-update-5)'
     sources:
+      domestic:
+        - 'There is a nationwide curfew from [8 pm to 5 am until August 23, 2020, at least.](https://www.garda.com/crisis24/news-alerts/367866/suriname-authorities-extend-curfew-and-other-covid-19-measures-until-august-23-update-5)'
+        - 'Gatherings of more than five people are prohibited unless related to work or educational purposes, funerals, or religious events, where the limit will be [50 people in attendance.](https://www.garda.com/crisis24/news-alerts/367866/suriname-authorities-extend-curfew-and-other-covid-19-measures-until-august-23-update-5)'
       inbound:
-        - '[Only nationals and residents of Slovakia may enter the country.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'Suriname has closed its international borders, including ferry services to Guyana, [until at least August 14, 2020](https://www.garda.com/crisis24/news-alerts/367866/suriname-authorities-extend-curfew-and-other-covid-19-measures-until-august-23-update-5)'
       visa_quarantine:
         - '[All SR citizen returning from abroad to the territory of the SR is ordered to stay in quarantine (isolation) in facilities specified by the Ministry of Interior of the SR for a period necessary for performance of laboratory diagnostics of COVID-19.](https://korona.gov.sk/en/adopted-measures/)'
     travel:
+      domestic: partial
       inbound: 'no'
   SS:
     sources:
